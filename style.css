@@ -1,0 +1,49 @@
+body {
+    background-color: #DDD;
+}
+
+body > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+#playBtn {
+    background: white;
+    border: 0 solid transparent;
+    width: 150px;
+    height: 26px;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin: 10px auto 20px;
+    display: block;
+    transition: all 0.1s;
+    font-weight: bold;
+}
+
+#playBtn:hover {
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3);
+    transform: scale( 1.02);
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border: 5px solid teal;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.case {
+    background-color: #fff;
+    padding: 4px;
+}
+
+.dead {
+    background-color: white;
+}
+
+.alive {
+    background-color: black;
+}
